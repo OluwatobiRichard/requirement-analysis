@@ -40,3 +40,29 @@ Well-defined and validated requirements act as the foundational blueprint for al
 
 Ensures Stakeholder Alignment and User Satisfaction:
 Requirement analysis facilitates crucial communication and collaboration between all project stakeholders, including end-users, business owners, and the development team. This process ensures a shared understanding and agreement on the system's objectives, functionalities, and constraints. When the final software product accurately reflects the agreed-upon requirements, it significantly enhances user adoption and satisfaction, as it directly addresses their needs and solves their problems effectively.
+
+Key Activities in Requirement Analysis
+Requirement analysis is not a single activity but a collection of interconnected processes that work together to ensure a comprehensive understanding of the project's needs. The five key activities typically involved are:
+
+Requirement Gathering (or Elicitation):
+This is the initial phase where information about the system to be developed is collected from various sources. It involves direct communication with stakeholders, end-users, and domain experts to understand their needs, expectations, and problems that the software should solve. Techniques include interviews, questionnaires, brainstorming sessions, workshops, observation, and reviewing existing documentation or systems. The goal is to obtain a raw set of needs.
+
+Requirement Elicitation:
+While often used interchangeably with "gathering," elicitation specifically refers to the set of techniques used to draw out hidden, unstated, or difficult-to-articulate requirements from stakeholders. It's about actively digging deeper than surface-level requests to uncover the true underlying needs. This involves skillful questioning, active listening, and using tools like prototypes or mock-ups to stimulate feedback.
+
+Requirement Documentation (or Specification):
+Once requirements are gathered and elicited, they must be formally recorded in a clear, unambiguous, and organized manner. This involves writing detailed specifications that all stakeholders can understand and agree upon. Documentation formats can vary, including:
+
+Functional Requirements: What the system must do (e.g., "The system shall allow users to log in").
+
+Non-Functional Requirements: How the system must perform (e.g., performance, security, usability, scalability).
+
+User Stories: Short, simple descriptions of a feature from the perspective of the end-user (e.g., "As a user, I want to log in so I can access my profile").
+
+Use Cases: Detailed descriptions of how a user interacts with the system to achieve a specific goal.
+
+Requirement Analysis and Modeling:
+This activity involves reviewing, structuring, and refining the documented requirements. The goal is to identify conflicts, ambiguities, incompleteness, and redundancies. It also involves prioritizing requirements based on business value, technical feasibility, and dependencies. Modeling techniques (e.g., UML diagrams, data flow diagrams, entity-relationship diagrams) are often used to visually represent requirements, helping to clarify complex relationships and system behavior, ensuring logical consistency.
+
+Requirement Validation:
+The final crucial step is to verify that the documented requirements accurately reflect the stakeholders' true needs and that they are achievable within project constraints. This involves reviewing the requirements with stakeholders to obtain their sign-off. Techniques include requirement reviews, walkthroughs, prototyping, and developing test cases against the requirements. Validation ensures that the development team will build the right product and avoids costly rework later in the SDLC.
