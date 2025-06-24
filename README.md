@@ -90,3 +90,77 @@ Security: Ensure data encryption, secure login, and protect against common vulne
 Scalability: The system should be able to scale horizontally to handle increased traffic.
 Usability: The application should have an intuitive UI/UX, making it easy for users to navigate and perform tasks.
 Reliability: The system should have an uptime of 99.9% and recover quickly from any failures.
+
+Use Case Diagrams
+Use Case Diagrams are a part of the Unified Modeling Language (UML) and are used to visually represent the functional requirements of a system. They depict the interactions between users (actors) and the system, illustrating what the system does from an external point of view.
+
+What are Use Case Diagrams?
+A Use Case Diagram shows a set of use cases (functions that the system performs) and actors (users or external systems that interact with the system). Each use case represents a specific goal that an actor wants to achieve using the system. The diagram typically includes:
+
+Actors: Represented by stick figures, these are entities outside the system that interact with it. They can be human users, other systems, or even devices.
+
+Use Cases: Represented by ovals, these describe a sequence of actions the system performs to yield an observable result of value to a particular actor. They define the system's functional boundaries.
+
+System Boundary: A rectangle that encloses the use cases, representing the scope of the system.
+
+Relationships:
+
+Association: A line connecting an actor to a use case, indicating that the actor interacts with that use case.
+
+Include: Denoted by a dashed arrow from a base use case to an included use case, meaning the base use case always incorporates the behavior of the included use case (e.g., "Login" might be included in many use cases).
+
+Extend: Denoted by a dashed arrow from an extending use case to a base use case, meaning the extending use case sometimes adds behavior to the base use case under specific conditions (e.g., "Cancel Booking" might extend "Make Booking").
+
+Generalization: A solid line with a hollow triangle arrowhead, indicating a specialized relationship (e.g., "Registered User" generalizes "Guest User").
+
+Benefits of Use Case Diagrams
+Simplifies Communication: They provide a high-level, easy-to-understand view of the system's functionality, making it easier for stakeholders (both technical and non-technical) to grasp what the system will do.
+
+Defines System Scope: Clearly outlines the boundaries of the system and what functionalities will be included, preventing scope creep.
+
+Identifies Actors and Their Goals: Helps in identifying all external entities interacting with the system and their primary objectives.
+
+Facilitates Requirement Elicitation: Can be used during discussions with stakeholders to elicit and confirm functional requirements.
+
+Basis for Test Cases: Each use case can serve as a foundation for developing test scenarios, ensuring that all defined functionalities are thoroughly tested.
+
+Use Case Diagram Example for a Booking System
+Below is a placeholder for a Use Case Diagram illustrating common actors and use cases for a booking system. You can create this diagram using a tool like Draw.io and then replace this text with the linked image.
+
+Example Actors for a Booking System:
+
+Guest User: An unauthenticated user.
+
+Registered User: A user who has signed up and logged in.
+
+Property Owner: A user who lists properties.
+
+Admin: A system administrator.
+
+Payment Gateway: An external system for processing payments.
+
+Example Use Cases for a Booking System:
+
+Search Properties
+
+View Property Details
+
+Register Account
+
+Log In
+
+Manage Profile
+
+Make Booking
+
+View Bookings
+
+Cancel Booking
+
+List Property
+
+Manage Listings
+
+Process Payment (often <<include>> from Make Booking)
+
+Generate Reports (for Admin)
