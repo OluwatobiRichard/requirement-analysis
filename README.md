@@ -1,1 +1,2 @@
-# requirement-analysis
+# Requirement Analysis in Software Development
+This repository is dedicated to exploring and documenting the crucial phase of requirement analysis within the software development lifecycle. It aims to serve as a comprehensive resource for understanding, gathering, analyzing, and managing project requirements, ensuring that software solutions effectively meet user needs and business objectives for AirBnB Clone App.
